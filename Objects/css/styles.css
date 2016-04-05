@@ -1,0 +1,41 @@
+/*body {
+	background: black;
+}*/
+
+figure {
+	width: 25%;
+}
+
+figure img {
+	width: 100%;
+}
+
+figcaption {
+	text-align: right;
+}
+
+.star {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	position: relative;
+	margin-left: 10px;
+	top: 4px;
+	background: url(../images/Gold_Star_off.svg);
+	background-size: 100%;
+	
+}
+
+.star.starOn {
+	background: url(../images/Gold_Star.svg);
+}
+
+input {
+	display: block;
+	padding: 5px;
+	margin: 10px 0px;
+}
+
+.clearfix {
+	clear: both;
+}

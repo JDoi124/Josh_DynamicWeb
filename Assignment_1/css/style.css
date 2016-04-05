@@ -1,0 +1,395 @@
+html, body {
+	height: 100%;
+}
+
+/* NAV BAR STARTS HERE */
+header {
+  height: 40%;
+/*  background: #BCED91; */
+  color: #fff;
+  padding: 30px;
+}
+
+h1 {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+#mainnav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 53px;
+  background-color: #00a087;
+}  
+}
+
+#mainnav ul {
+   margin: 0;
+  padding-top: 0;
+  list-style-type: none;
+}
+
+#mainnav ol {
+   margin: 0;
+  padding-top: 0;
+  list-style-type: none;
+}
+
+#mainnav ul li {
+  display: inline;
+  margin-left: 2px;
+  margin-right: 10px;
+}
+
+#logo {
+  float: left;
+}
+
+.inner {
+  min-height: 500px;
+  position: relative;
+  text-align: center;
+  font-size: px;
+  padding-top: 100px;
+  font-family:"Roboto", sans-serif;
+  background-color: white;
+}
+
+.inner h1 {
+  font-size: 100px;
+}
+
+.inner p{
+  font-size: 75px;
+}
+
+
+.factscontent1 {
+  margin-top: 10px;
+  height: 550px;
+}
+
+.factscontent1 img {
+  float: left;
+  width: 49%;
+}
+
+.factstext1 {
+  width: 49%;
+  background-color: white;
+  color: black;
+  float: right;
+  padding-right: 10px;
+  text-align: left;
+  font-size: 150%;
+}
+
+.factscontent2 {
+  height: 550px;
+}
+
+.factscontent2 img {
+  float: right;
+  width: 49%;
+}
+
+.factstext2 {
+  width: 49%;
+  background-color: white;
+  color: black;
+  margin-left: px;
+  float: left;
+  padding-left: 10px;
+  text-align: left;
+  font-size: 150%;
+}
+
+.factscontent3 {
+  height: 550px;
+}
+
+
+
+.factscontent3 img {
+  float: left;
+  width: 49%;
+}
+
+.factstext3 {
+  width: 49%;
+  background-color: white;
+  color: black;
+  margin-left: px;
+  float: right;
+  padding-right: 10px;
+  text-align: left;
+  font-size: 150%;
+}
+
+/*.factscontent4 {
+  height: 600px;
+}
+
+.factscontent4 img {
+  float: right;
+  width: 48%;
+}*/
+
+/*.factstext4 {
+  width: 48%;
+  background-color: black;
+  color: white;
+  margin-left: px;
+  float: left;
+  padding-left: 10px;
+  text-align: justify;
+  text-justify: auto;
+}
+*/
+.spacer{
+  height: 550px;
+}
+
+#sociallinks {
+  float: right;
+}
+
+#sociallinks ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+#sociallinks ul li {
+  display: inline;
+}
+
+#sociallinks img {
+  height: 25px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+  background: url();
+  background-position: center top;
+}
+
+#wrap {
+ max-width: 1900px; 
+ min-width: 300px;
+  margin: auto;
+}
+
+
+.clear fix {
+  clear: both;
+  
+}
+
+main {
+  max-width: 1900px;
+  min-width: 300px;
+  margin: auto;
+  font-family: arial;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: none;
+  font-weight: thin;
+  color: #CC0000;
+}
+
+/* NAV BAR ENDS HERE */
+
+/*SLIDERS BEGIN HERE*/
+
+#slider {
+  max-width: 1900px;
+  height: 55vw;
+  max-height: 800px;
+  position: relative;
+  overflow: hidden;
+  margin: auto;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 100px;
+  position: absolute;
+  text-align: center;
+  left: 100%;
+  transition: left 1s;
+}
+
+#slide1 {
+  background: url(../images/slidercontentpic2.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  left: 0;
+}
+
+
+#slide2 {
+  background: url(../images/slidercontent1.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#slide3 {
+  background: url(../images/slidercontentpic3.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+
+.button {
+  position: absolute;
+  z-index: 10;
+  padding: 10px;
+  top: 45%;
+}
+
+#next {
+  right: 0;
+  
+}
+
+
+.clear fix {
+  clear: both;
+  
+}
+
+/* SLIDERS ENDS HERE */
+
+/* CONTENT BEGINS HERE */
+.content-about {
+
+}
+
+
+/* CONTENT ENDS HERE */
+footer {
+	max-width: 1900px;
+  height: 35px;
+  background: #00a087;
+  color: #000;
+  text-align: center;
+  padding: 20px 0px;
+  margin: auto;
+}
+
+#hero1 {
+  background: url(http://www.cs.cornell.edu/w8/~crandall/maps/world-large.png);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+#hero2 {
+  background: url(https://img.ksl.com/slc/2569/256983/25698355.jpg?filter=ksl/responsive_story_lg);
+  background-size: cover;
+  background-position: center center;
+}
+
+
+#whitebox {
+	height: 650px;
+  padding-top: 300px;
+  text-align: center;
+  font-size: 500%;	
+  color: white;
+}
+
+.historyinfo {
+  height: auto;
+  padding-bottom: 50px;
+  background-color: white;
+}
+
+.historyinfo h1 {
+  padding-top: 150px;
+  padding-left: 225px;
+  font-size: 275%;
+}
+
+.historyinfo p{
+  font-size: 125%;
+  padding-left: 250px;
+  width: 70%;
+}
+
+.twitterfeeds {
+  width: 65%;
+  margin: auto;
+}
+
+@media screen and (max-width: 700px) {
+.factscontent1 img {
+  display: block;
+  margin: auto;
+}
+.factscontent2 img {
+  display: block;
+  margin: auto;
+}
+.factscontent3 img {
+ display: block;
+ margin: auto;
+}
+
+.factscontent1 {
+  height: auto;
+}
+
+.factscontent2 {
+  height: auto;
+}
+
+.factscontent3 {
+  height: auto;
+}
+
+
+
+.factstext1{
+  float: none;
+  position: relative;
+  margin: auto;
+}
+
+.factstext2 {
+  float: none;
+  position: relative;
+  margin: auto;
+}
+.factstext3 {
+  float: none;
+  position: relative;
+  margin: auto;
+}
+
+.historyinfo h1 {
+  padding-left: 0px;
+  position: static;
+}
+
+.historyinfo p{
+  padding-left: 50px;
+
+}
+
+}
+

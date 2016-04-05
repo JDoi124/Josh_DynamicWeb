@@ -1,0 +1,15 @@
+input[type=text] {
+	border-color: blue;
+	padding: 5px;
+	font-size: 20px;
+	border-radius: 10px;
+}
+
+input[type=password] {
+	border-color: blue;
+	
+}
+
+input {
+	position: in
+}

@@ -1,0 +1,59 @@
+<!doctype html> 
+
+<html> 
+	<head>
+
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+	</head>
+	<body>
+		<input type="number" name="num" step="919815051">
+
+		<div>
+			<input type="text"> Here is some Text
+			<textarea cols="40" rows="4" maxlength="500" placeholder="Tell me your Thoughts."></textarea>
+		</div>
+
+		<input type="color">
+		<h2> Contacts </h2> 
+		<p> Phone: <input type="number" name="num"> </p>
+		<p> Username: <input type="text" name="username" required> </p>
+		<p> Password: <input type="password" name"pw" required></p>
+		<p> Email: <input type="email" name="email"> </p>
+		<p> Your Webpage: <input type="url" name="link"> </p>
+		<p> </p>
+
+	<div>
+		<h1> Which one do you prefer </h1>
+		<input type="radio" name="food" value="Cake"> Cake <br />
+		<input type="radio" name="food" value="Pie"> Pie <br />
+	</div>
+	<h2> What do you like to do </h2>
+	<select>
+		<option value ="holder"> </option>
+		<option value="Dance"> Dance </option>
+		<option value="Party"> Party </option>
+		<option value="crunk"> Get Crunk </option>
+	</select>
+
+
+	<h4> Rate Us! </h4>
+		<input type="range" name="rating" value="1" min="1" max="100" step="1"> 
+
+<h2> Type of Phones you like </h2>
+	<input type="text" id="Mobiles" list="suggest" />
+	<datalist id="suggest">
+		<option> Iphone </option>
+		<option> Samsung </option>
+		<option> Blackberry </option>
+		<option> Nokia </option>
+	</datalist>
+
+<button id="submit">Submit</button>
+
+	<script src="script.js" type="text/javascript"></script>
+	</body>
+
+
+
+</html>
